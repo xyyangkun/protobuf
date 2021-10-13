@@ -1,0 +1,7 @@
+http://xcd.blog.techweb.com.cn/archives/173.html
+
+apt-get install protcol
+
+1. create_pb_head.sh 创建x.pb.cc  x.pb.h文件
+2. make 编译
+3. ./x 运行， 程序中有序列号，还原的过程

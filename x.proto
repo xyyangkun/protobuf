@@ -1,0 +1,13 @@
+//http://xcd.blog.techweb.com.cn/archives/173.html
+syntax = "proto2";
+// 注释语法
+package x;
+message Person{
+required string name =1;
+required int32 id    =2;
+required string email=3;
+/*required  必须要在程序中初始化的,如果不初始化，执行会出错*/
+optional string mydata=4;
+/* optional 可选初始化的*/
+required string mytest=5;
+}
